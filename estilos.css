@@ -9,5 +9,29 @@
 body {
   width: 99vw;
   height: 97vh;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  position: absolute;
+  top: 94vh;
+  text-align: center;
+  width: 99vw;
+  color: darkgreen;
+  font-style: italic;
+}
+
+footer a {
+  color: darkgrey;
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
 }
 /*# sourceMappingURL=estilos.css.map */
