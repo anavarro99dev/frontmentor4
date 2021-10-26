@@ -8,3 +8,14 @@ $font_size: 18px; //name and stats
 // font-family: 'Inter', sans-serif;
 // font-family: 'Red Hat Display', sans-serif;
 // Weights: 400, 700
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 99vw;
+    height: 97vh;
+}
