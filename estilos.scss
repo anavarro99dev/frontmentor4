@@ -24,12 +24,40 @@ body{
     font-weight: 400;
 }
 
+main{
+
+}
+
+section{
+    h1{
+
+    }
+    span{
+
+    }
+    p{
+
+    }
+}
+
+ul{
+    li{
+
+    }
+    h1{
+
+    }
+    p{
+        
+    }
+}
+
 footer{
     position: absolute;
     top: 94vh;
 
     text-align: center;
-    width: 99vw;
+    width: inherit;
 
     color: darkgreen;
     font-style: italic;
