@@ -12,6 +12,96 @@ body {
   font-family: 'Inter', sans-serif;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 400;
+  line-height: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 375px;
+  border-radius: 15px;
+  -webkit-box-shadow: darkgrey 10px 10px 50px;
+          box-shadow: darkgrey 10px 10px 50px;
+}
+
+section#imagen {
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  height: 10em;
+  text-align: center;
+  margin-bottom: 4.5em;
+}
+
+section#imagen img {
+  margin-top: 6.5em;
+  border-radius: 100%;
+  border: solid white 5px;
+}
+
+section#encabezado {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+section#encabezado h1 {
+  font-size: 18px;
+}
+
+section#encabezado span {
+  font-weight: normal;
+  color: #969696;
+}
+
+section#encabezado p {
+  color: #969696;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5em 0;
+  border-top: solid darkgrey 1px;
+}
+
+ul li {
+  text-align: center;
+  width: 20%;
+}
+
+ul h1 {
+  font-size: 18px;
+}
+
+ul p {
+  font-size: 12px;
+  color: #969696;
 }
 
 footer {

@@ -4,7 +4,7 @@ $dark_grayish_blue: hsl(227, 10%, 46%);
 $dark_gray: hsl(0, 0%, 59%);
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Red+Hat+Display:wght@500&display=swap');
-$font_size: 18px; //name and stats
+// font_size(name and stats): 18px;
 // font-family: 'Inter', sans-serif;
 // font-family: 'Red Hat Display', sans-serif;
 // Weights: 400, 700
@@ -22,33 +22,73 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
+
+    line-height: 1.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    width: 375px;
+    border-radius: 15px;
+    box-shadow: darkgrey 10px 10px 50px;
 }
 
-section{
-    h1{
+section#imagen{
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
 
+    height: 10em;
+    text-align: center;
+    img{
+        margin-top: 6.5em;
+
+        border-radius: 100%;
+        border: solid white 5px;
+    }
+    margin-bottom: 4.5em;
+}
+
+section#encabezado{
+    text-align: center;
+    h1{
+        font-size: 18px;
     }
     span{
-
+        font-weight: normal;
+        color: $dark_gray;
     }
     p{
-
+        color: $dark_gray;
     }
+    margin-bottom: 2em;
 }
 
 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.5em 0;
+    border-top: solid darkgrey 1px;
+    
     li{
-
+        text-align: center;
+        width: 20%;
     }
     h1{
-
+        font-size: 18px;
     }
     p{
-        
+        font-size: 12px;
+        color: $dark_gray;
     }
 }
 
