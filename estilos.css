@@ -13,6 +13,7 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 400;
   line-height: 1.5em;
+  color: #2d3248;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +23,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #19a2ae;
+  background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: 600px, -300px;
+  background-position-y: 300px, -600px;
 }
 
 main {
@@ -37,8 +43,9 @@ main {
           justify-content: center;
   width: 375px;
   border-radius: 15px;
-  -webkit-box-shadow: darkgrey 10px 10px 50px;
-          box-shadow: darkgrey 10px 10px 50px;
+  -webkit-box-shadow: #2d3248 1px 1px 20px -10px;
+          box-shadow: #2d3248 1px 1px 20px -10px;
+  background-color: white;
 }
 
 section#imagen {
@@ -67,11 +74,11 @@ section#encabezado h1 {
 
 section#encabezado span {
   font-weight: normal;
-  color: #969696;
+  color: #6a6f81;
 }
 
 section#encabezado p {
-  color: #969696;
+  color: #6a6f81;
 }
 
 ul {
@@ -87,7 +94,7 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.5em 0;
-  border-top: solid darkgrey 1px;
+  border-top: dashed #969696 1px;
 }
 
 ul li {
